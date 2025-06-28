@@ -1,0 +1,20 @@
+.taxas-sucesso ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.taxas-sucesso li {
+  background-color: #FFFFFF; /* Fundo branco para os itens da lista */
+  margin-bottom: 10px;
+  padding: 12px;
+  border-left: 4px solid #E0E0E0; /* Borda lateral suave */
+  border-radius: 4px;
+  text-align: left;
+  font-size: 1em;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.03); /* Sombra bem leve */
+}
+
+.taxas-sucesso li strong {
+  color: #CC6666; /* Usa o vermelho suave para o destaque das taxas */
+}

@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+  background-color: #F8F8F8; /* Um branco bem leve para o fundo da página */
+  color: #333;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.dashboard-container {
+  background-color: #FFFFFF; /* Fundo totalmente branco para o dashboard */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Sombra mais suave */
+  padding: 30px;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+}
+
+h1 {
+  color: #CC6666; /* Um vermelho suave e elegante */
+  font-size: 2.5em; /* Um pouco maior para destaque */
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-style: italic;
+  margin-bottom: 25px;
+  color: #777;
+  font-size: 1em;
+}
+
+.profile-icon-container {
+  width: 90px; /* Um pouco maior */
+  height: 90px;
+  border-radius: 50%;
+  background-color: #F0F0F0; /* Fundo neutro para o círculo */
+  margin: 25px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2em;
+  color: #AAA;
+  overflow: hidden;
+  border: 2px solid #E0E0E0; /* Borda suave */
+}
+
+.profile-icon-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card {
+  background-color: #FFFFFF; /* Cards também brancos */
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Sombra mais suave para cards */
+  border: 1px solid #EDEDED; /* Borda quase imperceptível */
+  text-align: left;
+}
+
+h2 {
+  color: #888; /* Cinza suave para os títulos dos cards */
+  font-size: 1.6em;
+  margin-top: 0;
+  border-bottom: 1px solid #EEE; /* Linha divisória bem suave */
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 0.8em;
+  color: #888;
+  text-align: center;
+}

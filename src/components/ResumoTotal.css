@@ -1,0 +1,29 @@
+.resumo-total table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .resumo-total th, .resumo-total td {
+    border: 1px solid #F0F0F0; /* Borda bem clara */
+    padding: 10px;
+    text-align: left;
+    font-size: 0.95em;
+  }
+  
+  .resumo-total th {
+    background-color: #F5F5F5; /* Fundo cinza bem claro para o cabeçalho */
+    color: #555;
+  }
+  
+  .resumo-total tr:nth-child(even) {
+    background-color: #FAFAFA; /* Listras sutis para a tabela */
+  }
+  
+  .foras-ponderados {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #AA4444; /* Vermelho suave para o destaque */
+    font-weight: bold;
+    text-align: center;
+  }
