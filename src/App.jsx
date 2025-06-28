@@ -7,14 +7,14 @@ import { PorEvento } from './components/PorEvento';
 // Dados do seu "Arraiá do Cupido" - Mantenha eles aqui ou mova para um arquivo separado se preferir
 const dadosSaoJoao = {
   resumoTotal: {
-    chamadas: 32,
-    quiseram: 21,
+    chamadas: 33,
+    quiseram: 22,
     meioFora: 2,
     fora: 9,
   },
   porEvento: [
     { nome: 'Festa da empresa', chamadas: 6, sucesso: 6, fora: 0, meioFora: 0 },
-    { nome: 'Dia 1 – Festival da Mandioca', chamadas: 9, sucesso: 5, meioFora: 1, fora: 3 },
+    { nome: 'Dia 1 – Festival da Mandioca', chamadas: 10, sucesso: 6, meioFora: 1, fora: 3 },
     { nome: 'Dia 2 – Festival da Mandioca', chamadas: 4, sucesso: 3, fora: 1, meioFora: 0 },
     { nome: 'Dia 3 – Festival da Mandioca', chamadas: 13, sucesso: 7, meioFora: 1, fora: 5 },
   ],
