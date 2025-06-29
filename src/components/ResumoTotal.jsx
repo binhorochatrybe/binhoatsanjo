@@ -20,12 +20,12 @@ export function ResumoTotal({ data }) {
           <tr>
             <td>Chamadas pra dançar</td>
             <td>{chamadas}</td>
-            <td>Tudo que eu tentei</td>
+            <td>Repetidas não contam</td>
           </tr>
           <tr>
             <td>Toparam dançar</td>
             <td>{quiseram}</td>
-            <td>Vitória, pô</td>
+            <td>Dancei 2 músicas ou mais</td>
           </tr>
           <tr>
             <td>Meio fora</td>
@@ -35,7 +35,7 @@ export function ResumoTotal({ data }) {
           <tr>
             <td>Fora direto</td>
             <td>{fora}</td>
-            <td>Nem rolou</td>
+            <td> Não quis nem um boa noite</td>
           </tr>
         </tbody>
       </table>
